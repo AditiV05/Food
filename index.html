@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Itim&family=Ledger&family=Poppins:wght@400;500&display=swap");
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div class="navbar">
+        <span class="text">KhanaKhazana</span>
+        <img src="chef.png" alt="" />
+      </div>
+    </div>
+
+    <header>
+      <div class="banner">
+        <h1>
+          Everyday <br />
+          Food Recipes
+        </h1>
+      </div>
+    </header>
+
+    <div class="section">
+      <div>
+        <p class="centered-lines">
+          We have made it easy to choose everyday food for people who love to
+          cook,<br />because if you love food, we love you
+          <span><img src="heart.png" class="heart" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="section2">
+      <div class="input-container">
+        <input id="input-tag" type="text" placeholder="Search" />
+      </div>
+    </div>
+
+    <div class="section3">
+      <div class="RandomFood">
+        <img src="khanakhazana.png" />
+        <p>NAME OF THE DISH</p>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Ingredients</h2>
+          <ul id="ingredientsList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="vapour">
+      <span style="--i: 1"></span>
+      <span style="--i: 3"></span>
+      <span style="--i: 16"></span>
+      <span style="--i: 5"></span>
+      <span style="--i: 13"></span>
+      <span style="--i: 20"></span>
+      <span style="--i: 6"></span>
+      <span style="--i: 7"></span>
+      <span style="--i: 10"></span>
+      <span style="--i: 8"></span>
+      <span style="--i: 17"></span>
+      <span style="--i: 11"></span>
+      <span style="--i: 12"></span>
+      <span style="--i: 14"></span>
+      <span style="--i: 2"></span>
+      <span style="--i: 9"></span>
+      <span style="--i: 15"></span>
+      <span style="--i: 4"></span>
+      <span style="--i: 19"></span>
+    </div> -->
+
+    <div class="section4">
+      <div class="box">
+        <img src="food1.png" />
+        <p class="box-text">Dish</p>
+      </div>
+      <div class="box2">
+        <img src="food2.png" />
+        <p class="box-text">Dish</p>
+      </div>
+      <div class="box3">
+        <img src="food3.png" />
+        <p class="box-text">Dish</p>
+      </div>
+      <div class="box2">
+        <img src="food4.png" />
+        <p class="box-text">Dish</p>
+      </div>
+      <div class="box">
+        <img src="food5.png" />
+        <p class="box-text">Dish</p>
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
